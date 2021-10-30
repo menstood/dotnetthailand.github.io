@@ -107,7 +107,7 @@ using (var connection = new SqlConnection(ConnectionString))
 ด้านล่างนี้คือการเปรียบเทียบประสิทธิภาพโดยการเปรียบเทียบการดำเนินการ `Bulk` จากการดำเนินการ `Batch` กับคำสั่ง `packed SQL-statements` ทำให้เวลา `48` วินาทีลดลงเหลือ `1.74` วินาทีสำหรับข้อมูล 200K ที่มี 5 คอลัมน์ 
 ![output](images/time.png "result")
 
-### แล้วการทำ Merging multiple rows? ล่ะ?
+### แล้วการทำ Merging multiple rows?
 ใน Dapper เราต้องสร้าง Table-Valued-Parameters (TVP) โดยใช้ User-Defined-Types (UDT) และสร้าง stored-procedures  มันก็ทำได้แต่จะน่าเบื่อและมต้องการการบำรุงรักษาการเพิ่มเติม 
 
 RepoDb นั้นง่ายมาก
