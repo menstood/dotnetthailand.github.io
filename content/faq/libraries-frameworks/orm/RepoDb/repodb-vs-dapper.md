@@ -303,7 +303,7 @@ using (var connection = new SqlConnection(connectionString).EnsureOpen())
 }
 ```
 
-## อื่นๆ ตามอ่านได้เยครับ ♻️
+## อื่นๆ ตามอ่านได้เลยครับ ♻️
 ด้านล่างนี้เป็นคุณสมบัติอื่นๆ ที่ยังไม่ได้พูดถึง คุณสมบัติพวกนี้ช่วยแก้ปัญหาได้หลากหลาย
 - [Class Mapping](https://repodb.net/feature/classmapping) vs [Implicit Mapping](https://repodb.net/feature/implicitmapping)
 - [Connection Persitency](https://repodb.net/feature/connectionpersistency)
