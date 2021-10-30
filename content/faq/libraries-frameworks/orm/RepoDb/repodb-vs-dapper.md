@@ -312,9 +312,9 @@ using (var connection = new SqlConnection(connectionString).EnsureOpen())
 - [Hints](https://repodb.net/feature/hints)
 - [Multiple Query](https://repodb.net/feature/multiplequery)
 - [Repositories](https://repodb.net/feature/repositories)
-- [Tracing]([https://repodb.net/feature/tracing])
+- [Tracing](https://repodb.net/feature/tracing)
 - [Type Mapping](https://repodb.net/feature/typemapping)
 
 
 ทั้งหมดคือสิ่งที่ผมคิดว่า RepoDb น่าใช้มากกว่า Dapper 
-~Thank you for reading.~
+Thank you for reading.
